@@ -251,7 +251,7 @@ function App() {
                   <img
                     src={users_project}
                     alt="Usermanagement"
-                    style={{ width: "64px", height: "64px" }}
+                    style={{ width: "69px", height: "65px" }}
                   />
                 </div>
               </a>
