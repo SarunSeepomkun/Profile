@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.97a792dd.chunk.css",
+    "main.js": "/static/js/main.0772ecbb.chunk.js",
+    "main.js.map": "/static/js/main.0772ecbb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.915814e0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.915814e0.js.map",
+    "static/js/2.2ee89d8a.chunk.js": "/static/js/2.2ee89d8a.chunk.js",
+    "static/js/2.2ee89d8a.chunk.js.map": "/static/js/2.2ee89d8a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.97a792dd.chunk.css.map": "/static/css/main.97a792dd.chunk.css.map",
+    "static/js/2.2ee89d8a.chunk.js.LICENSE.txt": "/static/js/2.2ee89d8a.chunk.js.LICENSE.txt",
+    "static/media/logo_virus128.dd70177e.png": "/static/media/logo_virus128.dd70177e.png",
+    "static/media/material_ui.5b2d8a0a.png": "/static/media/material_ui.5b2d8a0a.png",
+    "static/media/reactjs.73ac128a.png": "/static/media/reactjs.73ac128a.png",
+    "static/media/rest_api.d34c47ff.png": "/static/media/rest_api.d34c47ff.png",
+    "static/media/sarun_seepomkun.8feaa987.jpeg": "/static/media/sarun_seepomkun.8feaa987.jpeg",
+    "static/media/sql_oracle.bbea1761.png": "/static/media/sql_oracle.bbea1761.png",
+    "static/media/web.98a754d3.png": "/static/media/web.98a754d3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.915814e0.js",
+    "static/js/2.2ee89d8a.chunk.js",
+    "static/css/main.97a792dd.chunk.css",
+    "static/js/main.0772ecbb.chunk.js"
+  ]
+}
