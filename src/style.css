@@ -201,13 +201,13 @@ pre {
   .grid,
   .showcase .grid,
   .languages .grid,
-  .hobbies .grid {
+  .hobbies .grid , .projects .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap: 0.5rem;
   }
 
-  .languages .grid{
+  .languages .grid , .projects .grid{
     grid-template-columns: repeat(3 ,1fr) !important;
   }
 
@@ -243,7 +243,7 @@ pre {
 
 @media (max-width: 500px){
 
- .languages .grid{
+ .languages .grid , .projects .grid{
     grid-template-columns: repeat(2 ,1fr) !important;
   }
 

@@ -237,9 +237,8 @@ function App() {
       <section id="projects" className="projects bg-primary">
         <div className="container">
           <div className="text-center">
-            <h2 className="lg">Simple projects on free time</h2>
+            <h2 className="md text-center mt-6 text-weight-bold">Simple projects on free time</h2>
             <div className="container grid grid-4">
-              
               {/* Usernamegement */}
               <a
                 rel="noopener noreferrer"
