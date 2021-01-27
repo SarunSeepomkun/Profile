@@ -18,7 +18,7 @@ const projects = () => {
               target="_blank"
               href="https://ipeach-usermanagement.netlify.app/"
             >
-              <div className="card" href>
+              <div className="card">
                 <h4>Usermanagement</h4>
                 <img
                   src={users_project}
@@ -34,7 +34,7 @@ const projects = () => {
               target="_blank"
               href="https://ipeach-covid19thailand.netlify.app/"
             >
-              <div className="card" href>
+              <div className="card">
                 <h4>Covid-19(TH)</h4>
                 <img
                   src={logo_virus}
@@ -50,7 +50,7 @@ const projects = () => {
               target="_blank"
               href="https://ipeach-todoapp.netlify.app/"
             >
-              <div className="card" href>
+              <div className="card">
                 <h4>Todolist</h4>
                 <img
                   src={document}

@@ -10,8 +10,8 @@
   --error-color: #d9534f;
 }
 
-* { 
-   scroll-behavior: smooth; /* chrome */
+* , body{
+  scroll-behavior: smooth; /* chrome */
   -webkit-overflow-scrolling: touch; /* safari */
   box-sizing: border-box;
   padding: 0;
@@ -71,7 +71,10 @@ pre {
   height: 70px;
 }
 
-.showcase , .languages , .exprerience , .hobbies{
+.showcase,
+.languages,
+.exprerience,
+.hobbies {
   padding-top: 9.6vh;
 }
 
@@ -151,17 +154,20 @@ pre {
 
 /* Skill Languages */
 
-.languages .flex , .certificate .flex {
+.languages .flex,
+.certificate .flex {
   flex-wrap: wrap;
   overflow: hidden;
 }
 
-.languages .card , .certificate .card{
+.languages .card,
+.certificate .card {
   text-align: center;
   margin: 0.1rem;
 }
 
-.languages .card h4 , .certificate .card h4 {
+.languages .card h4,
+.certificate .card h4 {
   font-size: 1rem;
   margin-bottom: 0.5em;
 }
@@ -201,14 +207,18 @@ pre {
   .grid,
   .showcase .grid,
   .languages .grid,
-  .hobbies .grid , .projects .grid , .certificate .grid {
+  .hobbies .grid,
+  .projects .grid,
+  .certificate .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     gap: 0.5rem;
   }
 
-  .languages .grid , .projects .grid , .certificate .grid {
-    grid-template-columns: repeat(3 ,1fr) !important;
+  .languages .grid,
+  .projects .grid,
+  .certificate .grid {
+    grid-template-columns: repeat(3, 1fr) !important;
   }
 
   .showcase {
@@ -232,44 +242,44 @@ pre {
     grid-column: 1;
   }
 
-  .form-control .flex{
+  .form-control .flex {
     flex-direction: column;
     flex-wrap: wrap;
   }
 }
 
-
 /* Mobile */
 
-@media (max-width: 500px){
-
- .languages .grid , .projects .grid  , .certificate .grid {
-    grid-template-columns: repeat(2 ,1fr) !important;
+@media (max-width: 500px) {
+  .languages .grid,
+  .projects .grid,
+  .certificate .grid {
+    grid-template-columns: repeat(2, 1fr) !important;
   }
 
   /* .navbar{
     height: 110px;
   } */
 
-  .navbar .flex{
+  .navbar .flex {
     flex-direction: column;
   }
 
-  .navbar ul{
+  .navbar ul {
     padding: 10px;
-    background-color: rgba(0, 0,0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
   }
 
-  .showcase-form{
+  .showcase-form {
     width: 300px;
   }
 
-  .flex{
+  .flex {
     flex-direction: column;
     flex-wrap: wrap;
   }
 
-  .showcase , .languages , .exprerience , .certificate , .hobbies{
+  .section {
     padding-top: 5vh;
   }
 }

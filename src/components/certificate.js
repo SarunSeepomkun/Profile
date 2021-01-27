@@ -10,7 +10,7 @@ const certificate = () => {
     <section id="certificate" className="certificate">
       <h2 className="md text-center mt-6 text-weight-bold">Certificates</h2>
       <div className="container grid grid-4">
-        <div className="card text-center">
+        <div className="card flex flex-column">
           <h4>HTML , CSS , Javascript</h4>
           <img
             src={johns_hopkins}
@@ -21,11 +21,12 @@ const certificate = () => {
             href="https://www.coursera.org/account/accomplishments/certificate/LBFLM4T4AJHB"
             rel="noreferrer"
             target="_blank"
+            className="text-secondary"
           >
-            Credential
+            See Credential
           </a>
         </div>
-        <div className="card text-center">
+        <div className="card flex flex-column">
           <h4>Web Responsive</h4>
           <img
             src={michigan}
@@ -36,11 +37,12 @@ const certificate = () => {
             href="https://www.coursera.org/account/accomplishments/certificate/8BHK7HD9SYJS"
             rel="noreferrer"
             target="_blank"
+            className="text-secondary"
           >
-            Credential
+            See Credential
           </a>
         </div>
-        <div className="card text-center">
+        <div className="card flex flex-column">
           <h4>SQL for Data Science</h4>
           <img
             src={ucdavis}
@@ -51,11 +53,12 @@ const certificate = () => {
             href="https://www.coursera.org/account/accomplishments/certificate/U2RPY7KK8MTG"
             rel="noreferrer"
             target="_blank"
+            className="text-secondary"
           >
-            Credential
+            See Credential
           </a>
         </div>
-        <div className="card text-center">
+        <div className="card flex flex-column">
           <h4>NodeJS MongoDB</h4>
           <img
             src={hkust}
@@ -66,11 +69,12 @@ const certificate = () => {
             href="https://www.coursera.org/account/accomplishments/certificate/ZMT927NJVMUT"
             rel="noreferrer"
             target="_blank"
+            className="text-secondary"
           >
-            Credential
+            See Credential
           </a>
         </div>
-        <div className="card text-center">
+        <div className="card flex flex-column">
           <h4>Crash Course on Python</h4>
           <img
             src={google}
@@ -81,8 +85,9 @@ const certificate = () => {
             href="https://www.coursera.org/account/accomplishments/certificate/58M5WRPP7Z3X"
             rel="noreferrer"
             target="_blank"
+            className="text-secondary"
           >
-            Credential
+            See Credential
           </a>
         </div>
       </div>
