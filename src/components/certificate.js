@@ -15,7 +15,7 @@ const certificate = () => {
           <img
             src={johns_hopkins}
             alt="HTML, CSS, and Javascript for Web Developers"
-            style={{ width: "170px", height: "120px" }}
+            style={{ maxWidth: "170px", maxHeight: "120px" }}
           />
           <a
             href="https://www.coursera.org/account/accomplishments/certificate/LBFLM4T4AJHB"
@@ -30,7 +30,7 @@ const certificate = () => {
           <img
             src={michigan}
             alt="Advanced Styling with Responsive Design"
-            style={{ width: "180px", height: "90px" }}
+            style={{ maxWidth: "180px", maxHeight: "90px" }}
           />
           <a
             href="https://www.coursera.org/account/accomplishments/certificate/8BHK7HD9SYJS"
@@ -45,7 +45,7 @@ const certificate = () => {
           <img
             src={ucdavis}
             alt="SQL for Data Science"
-            style={{ width: "120px", height: "110px" }}
+            style={{ maxWidth: "120px", maxHeight: "110px" }}
           />
           <a
             href="https://www.coursera.org/account/accomplishments/certificate/U2RPY7KK8MTG"
@@ -56,11 +56,11 @@ const certificate = () => {
           </a>
         </div>
         <div className="card text-center">
-          <h4>NodeJS ExpressJs MongoDB</h4>
+          <h4>NodeJS MongoDB</h4>
           <img
             src={hkust}
             alt="Server-side Development with NodeJS, Express and MongoDB"
-            style={{ width: "150px", height: "140px" }}
+            style={{ maxWidth: "150px", maxHeight: "140px" }}
           />
           <a
             href="https://www.coursera.org/account/accomplishments/certificate/ZMT927NJVMUT"
@@ -75,7 +75,7 @@ const certificate = () => {
           <img
             src={google}
             alt="Crash Course on Python"
-            style={{ width: "160px", height: "100px" }}
+            style={{ maxWidth: "160px", maxHeight: "100px" }}
           />
           <a
             href="https://www.coursera.org/account/accomplishments/certificate/58M5WRPP7Z3X"
