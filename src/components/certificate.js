@@ -1,64 +1,72 @@
 import React from "react";
-import johns_hopkins from "../images/certificate/johns_hopkins.jpg";
-import michigan from "../images/certificate/michigan.png";
-import ucdavis from "../images/certificate/ucdavis.png";
-import hkust from "../images/certificate/hkust.png";
-import google from "../images/certificate/google.jpg";
+// import popup from "./popup";
+import cert_johns_hopkins from "../images/certificate/cert_johns_hopkins.png";
+import cert_michigan from "../images/certificate/cert_michigan.png";
+import cert_ucdavis from "../images/certificate/cert_ucdavis.png";
+// import hkust from "../images/certificate/hkust.png";
+// import google from "../images/certificate/google.jpg";
 
 const certificate = () => {
+
+  const OpenPopup = ()=>{
+    
+  }
+
   return (
     <section id="certificate" className="certificate">
+      <popup />
       <h2 className="md text-center mt-6 text-weight-bold">Certificates</h2>
       <div className="container grid grid-4">
-        <div className="card flex flex-column">
+        <div className="card">
           <h4>HTML , CSS , Javascript</h4>
           <img
-            src={johns_hopkins}
+            src={cert_johns_hopkins}
             alt="HTML, CSS, and Javascript for Web Developers"
-            style={{ maxWidth: "170px", maxHeight: "120px" }}
+            style={{ maxWidth: "200px", maxHeight: "200px" }}
+            onClick={()=> OpenPopup}
           />
           <a
             href="https://www.coursera.org/account/accomplishments/certificate/LBFLM4T4AJHB"
             rel="noreferrer"
             target="_blank"
-            className="text-secondary"
+            className="tag-bottom-center text-secondary"
           >
             See Credential
           </a>
         </div>
-        <div className="card flex flex-column">
+        <div className="card">
           <h4>Web Responsive</h4>
           <img
-            src={michigan}
+            src={cert_michigan}
             alt="Advanced Styling with Responsive Design"
-            style={{ maxWidth: "180px", maxHeight: "90px" }}
+            style={{ maxWidth: "200px", maxHeight: "200px" }}
           />
           <a
             href="https://www.coursera.org/account/accomplishments/certificate/8BHK7HD9SYJS"
             rel="noreferrer"
             target="_blank"
-            className="text-secondary"
+            className="tag-bottom-center text-secondary"
           >
             See Credential
           </a>
         </div>
-        <div className="card flex flex-column">
+        <div className="card">
           <h4>SQL for Data Science</h4>
           <img
-            src={ucdavis}
+            src={cert_ucdavis}
             alt="SQL for Data Science"
-            style={{ maxWidth: "120px", maxHeight: "110px" }}
+            style={{ maxWidth: "200px", maxHeight: "200px" }}
           />
           <a
             href="https://www.coursera.org/account/accomplishments/certificate/U2RPY7KK8MTG"
             rel="noreferrer"
             target="_blank"
-            className="text-secondary"
+            className="tag-bottom-center text-secondary"
           >
             See Credential
           </a>
         </div>
-        <div className="card flex flex-column">
+        {/* <div className="card flex flex-column">
           <h4>NodeJS MongoDB</h4>
           <img
             src={hkust}
@@ -89,7 +97,7 @@ const certificate = () => {
           >
             See Credential
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

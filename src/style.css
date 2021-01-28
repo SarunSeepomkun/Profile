@@ -10,7 +10,7 @@
   --error-color: #d9534f;
 }
 
-* , body{
+* {
   scroll-behavior: smooth; /* chrome */
   -webkit-overflow-scrolling: touch; /* safari */
   box-sizing: border-box;
