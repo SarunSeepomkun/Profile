@@ -13,7 +13,7 @@ const personal = () => {
           </p>
         </div>
         <div className="showcase-form card">
-          <h2 className="text-weight-bold underline">Contact</h2>
+          <h2 className="text-weight-bold underline">Infomation</h2>
           <form name="contact">
             <div className="form-control flex">
               <img

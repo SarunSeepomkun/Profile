@@ -5,7 +5,7 @@ import users_project from "../images/users_128.png";
 
 const projects = () => {
   return (
-    <section id="projects" className="projects bg-primary">
+    <section id="projects" className="projects bg-gradient">
       <div className="container">
         <div className="text-center">
           <h2 className="md text-center mt-6 text-weight-bold">

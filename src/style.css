@@ -248,6 +248,11 @@ pre {
   }
 }
 
+.bg-gradient{
+  background-image: linear-gradient(to right, #047aed, #7c97f1);
+}
+
+
 /* Mobile */
 
 @media (max-width: 500px) {
