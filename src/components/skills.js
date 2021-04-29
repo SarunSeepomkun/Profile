@@ -3,10 +3,13 @@ import csharp from "../images/csharp.png";
 import sql_oracle from "../images/sql_oracle.png";
 import reactjs from "../images/reactjs.png";
 import webapp from "../images/web.png";
-import material_ui from "../images/material_ui.png";
+// import material_ui from "../images/material_ui.png";
 import rest_api from "../images/rest_api.png";
 import github from "../images/github.png";
-import firebase from "../images/firebase.png";
+// import firebase from "../images/firebase.png";
+import nodejs from "../images/nodejs.png";
+import python from "../images/python.png";
+import bootstrap from "../images/bootstrap.png";
 
 const skills = () => {
   return (
@@ -24,7 +27,7 @@ const skills = () => {
           <img src={csharp} alt="" style={{ width: "50px", height: "50px" }} />
         </div>
         <div className="card">
-          <h4>SQL (RDBMS)</h4>
+          <h4>SQL (Oracle,MSSQL)</h4>
           <img
             src={sql_oracle}
             alt=""
@@ -36,17 +39,25 @@ const skills = () => {
           <img src={reactjs} alt="" style={{ width: "70px", height: "50px" }} />
         </div>
         <div className="card">
-          <h4>Firebase (NoSQL)</h4>
+          <h4>NodeJS (ExpressJS)</h4>
           <img
-            src={firebase}
-            alt=""
-            style={{ width: "60px", height: "50px" }}
+            src={nodejs}
+            alt="nodejs"
+            style={{ width: "100px", height: "60px" }}
           />
         </div>
         <div className="card">
-          <h4>Material-UI</h4>
+          <h4>Python (Django)</h4>
           <img
-            src={material_ui}
+            src={python}
+            alt=""
+            style={{ width: "48px", height: "50px" }}
+          />
+        </div>
+        <div className="card">
+          <h4>Bootstrap</h4>
+          <img
+            src={bootstrap}
             alt=""
             style={{ width: "50px", height: "50px" }}
           />

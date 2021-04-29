@@ -2,6 +2,7 @@ import React from "react";
 import document from "../images/document.png";
 import logo_virus from "../images/logo_virus128.png";
 import users_project from "../images/users_128.png";
+import videocall from "../images/videocall.png";
 
 const projects = () => {
   return (
@@ -12,6 +13,22 @@ const projects = () => {
             Simple projects on free time
           </h2>
           <div className="container grid grid-4">
+            {/* Video call */}
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://ipeach-videocall.netlify.app/"
+            >
+              <div className="card">
+                <h4>Video call</h4>
+                <img
+                  src={videocall}
+                  alt="videocall"
+                  style={{ width: "64px", height: "65px" }}
+                />
+              </div>
+            </a>
+
             {/* Usernamegement */}
             <a
               rel="noopener noreferrer"
