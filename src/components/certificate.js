@@ -3,7 +3,7 @@ import cert_johns_hopkins from "../images/certificate/cert_johns_hopkins.png";
 import cert_michigan from "../images/certificate/cert_michigan.png";
 import cert_ucdavis from "../images/certificate/cert_ucdavis.png";
 import cert_nodejs_hku from "../images/certificate/cert_nodejs_hku.png";
-import cert_python_google from "../images/certificate/cert_python_google.png";
+import cert_web_python_javascript from "../images/certificate/cert_cs50.png";
 
 const certificate = () => {
 
@@ -76,14 +76,14 @@ const certificate = () => {
           </a>
         </div>
         <div className="card">
-          <h4>Python</h4>
+          <h4>Web Programming with Python and JavaScript</h4>
           <img
-            src={cert_python_google}
-            alt="Python"
+            src={cert_web_python_javascript}
+            alt="CS50's Web Programming with Python and JavaScript"
             style={{ maxWidth: "200px", maxHeight: "200px" }}
           />
           <a
-            href="https://www.coursera.org/account/accomplishments/certificate/58M5WRPP7Z3X"
+            href="https://certificates.cs50.io/16b96edf-7854-4600-a537-a5e50485d371.pdf"
             rel="noreferrer"
             target="_blank"
             className="tag-bottom-center text-secondary"
