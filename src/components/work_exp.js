@@ -22,8 +22,8 @@ const work_exp = () => {
                 <h2>Programmer</h2>
                 <p>2012 - 2013 at Prosoftexpress company.</p>
                 <p>Project : Multi-level network marketing (MLM)</p>
-                <p>Languages : ASP,C#,SQL,PHP,HTML,CSS,JavaScript</p>
-                <p>Tools : Visual Studio,Microsoft SQL,Windows Server,MySQL</p>
+                {/* <p>Languages : ASP,C#,SQL,PHP,HTML,CSS,JavaScript</p>
+                <p>Tools : Visual Studio,Microsoft SQL,Windows Server,MySQL</p> */}
               </div>
             </div>
 
@@ -35,8 +35,8 @@ const work_exp = () => {
                   company.
                 </p>
                 <p>Project : Private equity fund and accounting</p>
-                <p>Languages : ASP.net,C#,SQL,HTML,CSS,JavaScript</p>
-                <p>Tools : Visual Studio,Microsoft SQL,Windows Server,Reporting Service</p>
+                {/* <p>Languages : ASP.net,C#,SQL,HTML,CSS,JavaScript</p>
+                <p>Tools : Visual Studio,Microsoft SQL,Windows Server,Reporting Service</p> */}
               </div>
             </div>
 
@@ -47,8 +47,8 @@ const work_exp = () => {
                   2015 - now at bank of krungsri ayudhya public company limited.
                 </p>
                 <p>Project : Non-performing loan(NPL)</p>
-                <p>Languages : ASP.net,C#,SQL,HTML,CSS,JavaScript</p>
-                <p>Tools : Visual Studio,Oracle,Windows Server,TeraData</p>
+                {/* <p>Languages : ASP.net,C#,SQL,HTML,CSS,JavaScript</p>
+                <p>Tools : Visual Studio,Oracle,Windows Server,TeraData</p> */}
               </div>
             </div>
           </div>
