@@ -26,6 +26,7 @@ const projects = () => {
                   alt="videocall"
                   style={{ width: "64px", height: "65px" }}
                 />
+                <h6>ReactJS, Bootstrap, ExpressJS, Socket.io</h6>
               </div>
             </a>
 
@@ -42,6 +43,7 @@ const projects = () => {
                   alt="Usermanagement"
                   style={{ width: "69px", height: "65px" }}
                 />
+                <h6>ReactJS, CSS, Firebase</h6>
               </div>
             </a>
 
@@ -58,6 +60,7 @@ const projects = () => {
                   alt="covid-19"
                   style={{ width: "64px", height: "64px" }}
                 />
+                <h6>ReactJS, CSS, API</h6>
               </div>
             </a>
 
@@ -74,6 +77,7 @@ const projects = () => {
                   alt="document"
                   style={{ width: "64px", height: "64px" }}
                 />
+                <h6>ReactJS, CSS, Firebase</h6>
               </div>
             </a>
           </div>
