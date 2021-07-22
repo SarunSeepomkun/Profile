@@ -1,5 +1,6 @@
 import React from "react";
 import peach from "../images/sarun_seepomkun.jpeg";
+import vaccine_icon from "../images/vaccine.png";
 
 const personal = () => {
   return (
@@ -30,6 +31,14 @@ const personal = () => {
                 <p>Software developer</p>
                 <p>Sarunseepomkun@gmail.com</p>
                 {/* <p>095-920-6644</p> */}
+                <div>
+                  <img
+                    src={vaccine_icon}
+                    alt=""
+                    style={{ width: "20px", height: "20px" }}
+                  />
+                  <label>AstraZeneca</label>
+                </div>
               </div>
             </div>
           </form>
