@@ -3,6 +3,7 @@ import document from "../images/document.png";
 import logo_virus from "../images/logo_virus128.png";
 import users_project from "../images/users_128.png";
 import videocall from "../images/videocall.png";
+import social_backend from "../images/api.png";
 
 const projects = () => {
   return (
@@ -80,6 +81,25 @@ const projects = () => {
                 <h6>ReactJS, CSS, Firebase</h6>
               </div>
             </a>
+
+             {/* Social Backend API */}
+             <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://ipeach-social.herokuapp.com/api-docs"
+            >
+              <div className="card">
+                <h4>Social API</h4>
+                <img
+                  src={social_backend}
+                  alt="API"
+                  style={{ width: "64px", height: "64px" }}
+                />
+                <h6>NodeJS,JWT,MongoDB,Swagger</h6>
+              </div>
+            </a>
+
+
           </div>
         </div>
       </div>
